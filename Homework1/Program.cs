@@ -77,28 +77,37 @@
 // 8 -> 2, 4, 6, 8
 
 
+// Не знал как сделать, чтобы выводилось именно вот в таком виде "8->2 4 6 8" просто перечислением без "8->" сделать не проблема
 
-Console.WriteLine("Input N ");
-int N = Convert.ToInt32(Console.ReadLine());
 
-int i = 1;
+// Console.WriteLine("Input N ");
+// int N = Convert.ToInt32(Console.ReadLine());
 
-if (N > i)
-{
-    while (i < N)
-    {
-        i = i + 1;
-        if (i % 2 == 0)
-        {
-             Console.WriteLine($"{N} -> {i}");
-        }
-    }    
-}
-else
-{
-    Console.WriteLine("Input another N ");
-}
+// int i = 1;
 
+// if (N > i)
+// {
+//     while (i < N)
+//     {
+//         i = i + 1;
+//         if (i % 2 == 0)
+//         {
+//             Console.Write($"{N}->");
+//             while(i<=N)
+//             {
+//             Console.Write(i+" ");
+//             i = i + 2;
+//             }
+//         }
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Input another N ");
+// }
+
+
+// это тоже работает, он компактнее, но выводит в несколько строчек, и ничего не делает при N < 1
 
 
 // Console.WriteLine("Input N ");
