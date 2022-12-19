@@ -5,6 +5,16 @@
 // 918 -> 1
 
 
+// int ShowSecondNumber(int num)
+//         {
+//             int sot = num / 100;
+//             num = num - sot * 100;
+//             return num / 10;
+//         }
+
+// Console.Write("Введите трехзначное число ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(ShowSecondNumber(num));
 
 
 
@@ -18,6 +28,9 @@
 
 // 32679 -> 6
 
+
+
+// Свое решение:
 
 
 // int ShowThirdNumber (int num)
@@ -53,7 +66,7 @@
 
 
 
-// Пример
+// Пример из интерната
 
 // Console.Write("Введи число: ");
 // int anyNumber = Convert.ToInt32(Console.ReadLine());
