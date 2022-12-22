@@ -30,18 +30,20 @@
 
 // Здесь просто хотел попробовать через строчки, но не получилось. 
 
-// string Method4(string num)
+// string Summa(string num)
 // {
+//     string result = string.Empty;
 //     int length = num.Length;
 //     for(int i = 0; i < length; i++)
 //     {
-//        int result =  + num[i];
+//     //    result = result + num[i];
+//         result = result + $"{num[i]}";
 //     }
 //     return result;
 // }
 // Console.WriteLine("Input number: ");
-// string A =Convert.ToString(Console.ReadLine());
-// Console.WriteLine(Method4);
+// string number =Convert.ToString(Console.ReadLine());
+// Console.WriteLine(Summa(number));
 
 
 // Это рабочий вариант решения данного задания
